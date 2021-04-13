@@ -1,10 +1,14 @@
 .avatar {
-  width: 40px;
+  width: 65px;
   border-radius: 50%;
 }
+.avatar-circle {
+
+}
 .avatar-large {
-  width: 56px;
-  border-radius: 50%;
+  width: 65px;
+  border-radius: 75%;
+  padding-left: 0.5em;
 }
 .avatar-bordered {
   width: 40px;

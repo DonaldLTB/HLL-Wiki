@@ -1,0 +1,32 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .cards p {
+    color: black;
+  }
+  
+  .card {
+    text-align: center;
+    background-size: cover;
+    justify-content: space-around;
+    border-radius: 8px;
+    height: 250px;
+    width: 200px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 6px;
+  }
+  
+  .card:last-child {
+    margin-right: 0px;
+  }
+  
+  .image-card {
+    height: 50px;
+    width: 30px;
+  }

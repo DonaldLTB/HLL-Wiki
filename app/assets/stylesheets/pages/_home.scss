@@ -1,1 +1,77 @@
 // Specific CSS for your home-page
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar {
+    padding: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #f2f2f24f;
+  }
+  
+  .navbar-lewagon {
+    justify-content: space-between;
+    // background: white;
+    background-color: #2c2b2b;
+    z-index: 2;
+  }
+  
+  .navbar-lewagon .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+  .navbar-lewagon .navbar-brand img {
+    width: 40px;
+  }
+  
+  .buh:hover {
+    background-color: transparent;
+    border: 1px solid #FF368D;
+  }
+  
+  .nav-link {
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav-link:hover {
+    background-color: #6AD58B;
+  }
+  
+  
+  .nav-tabs .nav-link {
+      font-family: Tungsten;
+      text-shadow: 0px 2px 2px #00000080;
+      color: white;
+      font-size: 24px;
+      margin-top: -100px;
+      border-radius: 6px;
+      background-color: #FF5200;
+      margin-right: 12px;
+    }
+  
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+      color: #ffffff;
+      background-color: #bb00fa;
+  }
+  
+  .nav-tabs .nav-link.active {
+      font-family: Tungsten;
+      text-shadow: 0px 2px 2px #00000080;
+      color: white;
+      font-size: 24px;
+      border: 0px solid;
+  }
+  
+  
